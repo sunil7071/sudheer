@@ -6,4 +6,16 @@
   <packaging>war</packaging>
   <name>Sudheer</name>
   <description>Sudheer</description>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>inbasdpc08658-releases</name>
+        <url>http://172.19.82.1:8040/artifactory/Sudheer</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>inbasdpc08658-snapshots</name>
+        <url>http://172.19.82.1:8040/artifactory/Sudheer</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
